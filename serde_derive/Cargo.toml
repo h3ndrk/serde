@@ -14,7 +14,7 @@ repository = "https://github.com/serde-rs/serde"
 rust-version = "1.56"
 
 [features]
-default = []
+default = ["deserialize_in_place"]
 deserialize_in_place = []
 
 [lib]
